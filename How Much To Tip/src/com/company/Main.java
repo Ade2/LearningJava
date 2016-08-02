@@ -25,11 +25,6 @@ public class Main {
         }
         bill = reader.nextDouble();
 
-//        do {
-//
-//
-//
-//        }
 
         while (bill <=0) {
             System.out.print("Please enter a valid bill greater than 0. £ ");
@@ -41,21 +36,10 @@ public class Main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
         System.out.print("Please enter the percentage you would like to tip: ");
         while (!reader.hasNextInt())
         {
-            System.out.printf("Please enter a valid percentage: ");
+            System.out.print("Please enter a valid percentage: ");
             reader.next();
         }
 
